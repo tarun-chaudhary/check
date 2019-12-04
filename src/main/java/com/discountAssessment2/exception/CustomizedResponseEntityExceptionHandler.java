@@ -1,4 +1,4 @@
-package test.discountAssessment2.exception;
+package com.discountAssessment2.exception;
 
 import java.util.Date;
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import test.discountAssessment2.service.UserNotFoundException;
+import com.discountAssessment2.service.UserNotFoundException;
 
 @ControllerAdvice
 @RestController

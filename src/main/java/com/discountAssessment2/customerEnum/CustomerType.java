@@ -18,8 +18,8 @@ public enum CustomerType {
 	
 	public static CustomerType get(String value) {
 		if (value == null || value.equals("null") || value.equals("")) {
-		return CustomerType.NULL;
-			} else if (true) {
+			return CustomerType.NULL;
+		} else {
 				for (CustomerType tObj : CustomerType.values())
 				if (tObj.value.equals(value))
 					return tObj;
@@ -28,7 +28,10 @@ public enum CustomerType {
 		}
 
 		public double getDiscount(){
-		return this.discount;
+			return this.discount;
+		}
+		public String getType(){
+			return this.value;
 		}
 	
 

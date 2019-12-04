@@ -1,4 +1,4 @@
-package test.discountAssessment2.exception;
+package com.discountAssessment2.exception;
 
 import java.util.Date;
 

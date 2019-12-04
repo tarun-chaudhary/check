@@ -1,4 +1,4 @@
-package test.discountAssessment2.models;
+package com.discountAssessment2.models;
 
 import com.discountAssessment2.customerEnum.CustomerType;
 
